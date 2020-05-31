@@ -17,7 +17,6 @@ $symbol = [",",".","-",PHP_EOL];
 $arrayAssoc=[];
 //Clear text
 $message = str_replace($symbol,"",$message);
-echo phpinfo();
 $message = mb_strtolower($message);
 $array = explode(" ",$message);
 
